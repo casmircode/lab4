@@ -1,7 +1,8 @@
 body {
   font: 13px 'Lato', Verdana, sans-serif;
   color: #404040;
-  background: #E7AD99;
+  /* background: #E7AD99; */
+  background: #001f3f;
 }
 
 .tasks{
@@ -11,7 +12,7 @@ body {
 	border-radius: 5px;
 	-webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
-	border: 3px solid #d1d1d1;
+	border: 3px solid #001f3f;
 }
 .task-bd {
   position: inherit;
@@ -24,7 +25,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #E7AD99;
+  color: #001f3f;
 }
 
 img {
@@ -71,5 +72,5 @@ background-color:white;
 border-radius: 5px;
 }
 button:hover {
-  background-color: #E7AD99;
+  background-color: gray;
 }
