@@ -1,0 +1,58 @@
+
+<html>
+
+        <head>
+          <link rel="stylesheet" href="styles.css">
+        
+          <style>
+            table,
+            th,
+            td {
+              border: 1px solid white;
+            }
+          </style>
+        </head>
+        
+        <body>
+            <img src='purple.png'>
+            <h1>Current Task List</h1><br>
+            
+          <table>
+              <tr>
+                <td>
+                  Task Name
+                </td>
+                <td>
+                  Task Due Date
+                </td>
+                <td>
+                  Task Description
+                </td>
+              </tr>
+              <% for(var i=0;i<taskDb.length;i++){ %>
+              <tr>
+                <td>
+                  <%= taskDb[i].taskName %>
+                </td>
+                <td>
+                  <%= taskDb[i].taskDueDate %>
+                </td>
+                <td>
+                  <%= taskDb[i].taskDescription %>
+                </td>
+              </tr>
+              <% }%>
+            </table>
+          <br>
+          <ul> 
+              <li>
+                  <h3> <a href="index.html">Home</a> </h3>
+              </li>
+              <li>
+                  <h3> <a href="newtask.html">New Task</a> </h3>
+              </li>
+              
+          </ul>
+        </body>
+        
+        </html>
