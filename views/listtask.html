@@ -4,20 +4,15 @@
         <head>
           <link rel="stylesheet" href="styles.css">
         
-          <style>
-            table,
-            th,
-            td {
-              border: 1px solid white;
-            }
-          </style>
+          
         </head>
         
         <body>
-            <img src='purple.png'>
-            <h1>Current Task List</h1><br>
-            
-          <table>
+            <div class='tasks'>
+            <img src='list.png'>
+            <div class='task-bd'>
+            <h2>Task List</h2><br>
+          <table class='center'>
               <tr>
                 <td>
                   Task Name
@@ -43,16 +38,14 @@
               </tr>
               <% }%>
             </table>
+          
           <br>
-          <ul> 
-              <li>
+          
                   <h3> <a href="index.html">Home</a> </h3>
-              </li>
-              <li>
+            
                   <h3> <a href="newtask.html">New Task</a> </h3>
-              </li>
-              
-          </ul>
+              </div>
+          </div>
         </body>
         
         </html>

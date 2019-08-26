@@ -4,23 +4,20 @@
         </head>
               
     <body>
-            <img src='purple.png'>
-            <h1>Add New Task</h1><br>
+            <div class='tasks'>
+            <img src='list.png'>
+            <div class='task-bd'>
+            <h2>New Task</h2><br>
             <div class='form'>
         <form action="/newItem" method="POST">
-            Task Name:      <input type='text' name='taskName'><br/>
-            Task Due:  <input type='date' name='taskDueDate'><br/>
-            Task Desc:<input type='text' name='taskDescription'><br/>
+            Task Name    <br><input type='text' name='taskName'><br/>
+            Task Due  <br><input type='date' name='taskDueDate'><br/>
+            Task Desc<br><input type='text' name='taskDescription'><br/>
             <button>Submit</button>
         </form>
-    </div>
-        <ul> 
-                <li>
-                    <h3> <a href="index.html">Home</a> </h3>
-                </li>
-                <li>
-                    <h3> <a href="listtask.html">List Task</a> </h3>
-                </li>
-            </ul>
+            <h3> <a href="index.html">Home</a> </h3>
+            <h3> <a href="listtask.html">List Task</a> </h3>
+            </div>
+            </div>
     </body>
 </html>

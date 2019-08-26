@@ -3,9 +3,8 @@ let router = express.Router();
 let db = [];
 
 router.get('/', function (req, res) {
-  res.render('index.html', {
-    username: "Guest"
-  });
+  res.sendFile('views/index.html' , { root : __dirname});
+  // res.render('index.html');
 })
 
 router.post('/newItem', function(req,res){
