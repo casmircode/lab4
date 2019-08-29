@@ -8,6 +8,8 @@ router.get('/', function (req, res) {
 })
 
 router.post('/newItem', function(req,res){
+  console.log(req.body);
+  
     db.push(req.body);
     
 })
